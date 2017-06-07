@@ -1,4 +1,11 @@
-﻿using System;
+﻿// Author: George Papadakis
+// Date Created: 2017-05-26
+// This work is a derivative of
+// "C# Adventure Game" by http://programmingisfun.com, 
+// used under CC BY.
+// https://creativecommons.org/licenses/by/4.0/
+
+using System;
 
 namespace TextAdventure // Namespace based on the program to arganize included types
 {
@@ -14,7 +21,7 @@ namespace TextAdventure // Namespace based on the program to arganize included t
          Console.WriteLine("Gork!!!"); // Writes a text literal to the console and goes to next line
          Console.WriteLine("A danger behind every rock, and an adventure at every fork!");
          Console.WriteLine(); // Blank line
-         Console.WriteLine("Please provide a character nameand press Enter:"); // Prompt to user for name
+         Console.WriteLine("Please provide a character name and press Enter:"); // Prompt to user for name
          CharacterName = Console.ReadLine(); // Take input from console and pass to string variable
          Console.WriteLine();
          Console.WriteLine("Great! Your chaarcter is now named " + CharacterName +"!"); // Concatenation with string literal and variable
@@ -22,6 +29,16 @@ namespace TextAdventure // Namespace based on the program to arganize included t
 
          Console.Read(); // Waits for input at the console
       }
+   }
+
+   class Game
+   {
+
+   }
+
+   class Item
+   {
+
    }
 }
 /*
